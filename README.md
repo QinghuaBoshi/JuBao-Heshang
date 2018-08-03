@@ -25,6 +25,7 @@
 [豆瓣「https://www.douban.com/note/685238643/
 [新浪http://news.sina.com.cn/s/2018-08-02/doc-ihhehtqf9284801.shtml
 [微博http://s.weibo.com/weibo/%25E5%25AD%25A6%25E8%25AF%259A?topnav=1&wvr=6&b=1#1533255795630
+[微博 相关人私人声明 https://m.weibo.cn/status/4268571439883783#comment
 
 如有任何与此有关的信息，请发邮件至：qinghuaboshi@gmail.com
 
