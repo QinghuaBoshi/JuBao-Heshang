@@ -34,7 +34,7 @@
 ## 举报人的自白：（举报人一开始可能认为，能惩治此性猎人; 此举报信公开，这是向大众求助）
 举报人信仰崩塌，内心也是痛苦的，详见其自白：
 
-<img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai1.jpg width="40%">
+
 <img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai2.jpg width="40%">
 <img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai3.jpg width="40%">
 <img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai4.jpg width="40%">
