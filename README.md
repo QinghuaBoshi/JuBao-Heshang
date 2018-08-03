@@ -32,7 +32,7 @@
 
 
 ## 举报信 截屏 
-## 性侵前的精神控制见 第61-80页
+## 学诚法师性侵前对女信徒的精神折磨，见下面截屏 第61-80页
 
 
 ![alt text](https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/1.png)
