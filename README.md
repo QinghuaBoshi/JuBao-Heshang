@@ -31,7 +31,8 @@
 我会持续更新关于此事的报道，如有关于此事的任何信息，我也会在此更新。
 
 
-## 举报信 截屏
+## 举报信 截屏 
+## 性侵前的精神控制见 第61-80页
 
 
 ![alt text](https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/1.png)
