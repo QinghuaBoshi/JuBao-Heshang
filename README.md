@@ -34,6 +34,7 @@
 ## 举报信 截屏
 
 
-![alt text](https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/diyiye.png)
+![alt text](https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/1.png)
+![alt text](https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/2.png)
 
 
