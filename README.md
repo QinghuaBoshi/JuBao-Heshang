@@ -37,11 +37,11 @@
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
 <img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai1.jpg width="40%"> |  <img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai2.jpg width="40%">
-
+:-------------------------:|:-------------------------:
 <img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai3.jpg width="40%"> |  <img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai4.jpg width="40%">
-
+:-------------------------:|:-------------------------:
 <img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai5.jpg width="40%"> |  <img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai6.jpg width="40%">
-
+:-------------------------:|:-------------------------:
 <img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai7.jpg width="40%"> |  <img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai8.jpg width="40%">
 
 
