@@ -36,11 +36,8 @@
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![](https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai1.jpg )  |  ![](https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai1.jpg )
+<img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai1.jpg width="40%"> |  <img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai1.jpg width="40%">
 
-<img src = https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai1.jpg width="40%">
-
-<img src=https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai2.jpg width="40%">
 
 ## 举报信 截屏见下：
 ## 学诚法师性侵前对女信徒的精神折磨，见下面截屏 第61-80页
