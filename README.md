@@ -34,7 +34,7 @@
 ## 举报人的自白：（举报人一开始可能认为，内部能惩治此性猎人，此举报信公开，这是向大众求助）
 举报人信仰崩塌，内心也是痛苦的，详见其自白：
 ![alt text](https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai1.jpg)
-
+<img src=“https://github.com/QinghuaBoshi/JuBao-Heshang/blob/master/images/jubaoren_zibai1.jpg” width="40%">
 
 ## 举报信 截屏见下：
 ## 学诚法师性侵前对女信徒的精神折磨，见下面截屏 第61-80页
