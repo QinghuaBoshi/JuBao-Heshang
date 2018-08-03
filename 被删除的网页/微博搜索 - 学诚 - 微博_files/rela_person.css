@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+.relaper_box2{ padding:12px 16px 0; overflow:hidden;}
+.rela_person { overflow:hidden;}
+.rela_person .pic a { display:block; width:70px; height:70px;}
+.rela_person .pic a img{width: 70px;height: 70px;}
+.rela_person .name { overflow:hidden; width: 75px; height: 18px; margin-top:6px; text-overflow: ellipsis; white-space: nowrap; line-height:18px;}
+
+.rela_person2{ margin-bottom:14px; }
+.rela_person2 .pic a { display:block; width:50px; height:50px;}
+.rela_person2 .pic a img{width: 50px;height: 50px;}
+.rela_person2 .name {margin-bottom:5px; padding-top:5px; margin-left:60px; font-size:14px; font-weight:700; }
+.rela_person2 .name a{ color:#333;}
+.rela_person2 .name a:hover{ color:#eb7350;}
+.rela_person2 .intro{ line-height:16px; color:#999; word-break:break-word; margin-left: 0;}
+
+#js_appstyle_searchV45_css_v6_module_rela_person{height:42px;}

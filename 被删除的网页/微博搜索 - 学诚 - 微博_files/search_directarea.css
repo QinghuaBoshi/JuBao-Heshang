@@ -1,0 +1,559 @@
+@charset "utf-8";
+/* CSS Document */
+
+.search_directarea { background:#fff; }
+.search_directarea .rel_group { margin-top:10px; padding-top:5px; border-top: dotted 1px #d8d8d8;}
+
+
+/* muti */
+.search_directarea .muti_box .muti_list { float:left; width:173px; margin-right:10px;}
+.search_directarea .muti_more { float:right;}
+.search_directarea .muti_box .search_inPer dt { width:80px;}
+.search_directarea .muti_box .search_inPer dd p.name { height:auto;}
+
+/* 搜索企业直达区 */
+.erp_dir .person_name { font-weight:bold;}
+.erp_dir .person_label .W_vline { margin:0 5px 0 0;}
+
+/* 找人+电话 */
+.perpho_dir .person_name a { font-weight:bold;}
+.perpho_dir .person_num span { margin-right:5px;}
+.perpho_dir .person_num .W_vline { margin:0 5px 0 0;}
+.perpho_dir .icon_phonenum { margin-right:3px; vertical-align:-1px;}
+
+/* 找人详细名片 */
+.per_dir .person_name a { font-weight:bold;}
+.per_dir .person_num span { margin-right:5px;}
+.per_dir .person_num .W_vline { margin:0 5px 0 0;}
+
+
+/* 微博找人+微群 */
+.pergro_dir .person_name a { font-weight:bold;}
+
+/* 找人+奥运赛事 */
+.search_dir_oly { background:#f6fbfd; border: solid 1px #e8f4f9; border-top:none; padding:0 10px;}
+
+.search_dir_bgs {  background:#f6fbfd; border: solid 1px #e8f4f9; border-top:none;}
+/* 找人+明星榜 */
+.starrank_content { margin:0 10px; line-height:37px; border-top: dotted 1px #ddebf3; margin-top:-2px;}
+.starrank_content .rank_l { float:left;}
+.starrank_content .rank_l dt, .starrank_content .rank_l dd { float:left;}
+.starrank_content .rank_l dd { _margin-top:10px;}
+.starrank_content .rank_txt, .starrank_content a:hover .rank_txt { color:#ff6608;}
+.starrank_content .search_icon { vertical-align:middle; margin-right:5px;}
+.starrank_content .rank_num { margin-left:5px;}
+
+.starrank_content .share_r { float:right; _margin-top:10px;}
+.starrank_content .share_r .share_wb .search_icon { vertical-align:-2px;}
+
+/* 找人+扩展话题 
+.expand_topic { margin:0 10px; padding:6px 0; max-height:50px; overflow:hidden; border-top: dotted 1px #ddebf3; margin-top:-2px;}
+.topic_tit { float:left; width:85px; line-height:22px;}
+.expand_topic .topic_list { height:44px; overflow:hidden; margin-left:85px;}
+.expand_topic ul { float:left; line-height:22px; margin-right:10px;}
+.expand_topic ul li { height:22px; overflow:hidden;_width:144px;}
+
+.expand_topic li a { display:inline-block; max-width:144px; _width:144px;height:22px;overflow:hidden;  white-space:pre; text-decoration:underline;}
+.expand_topic li a:hover { text-decoration:none;}
+.expand_topic .relative_sigle { height:22px;}
+.expand_topic .relative_sigle ul { margin-right:0; *vertical-align:middle;}
+.expand_topic .relative_sigle li { display:inline; float:left; margin-right:10px;}
+*/
+/* 最新微博 */
+.dire_lastweibo { line-height:20px; margin:-2px 10px 0; padding:5px 0; border-top: dotted 1px #ddebf3;}
+.dire_lastweibo .info { font-size:12px; }
+.dire_lastweibo .info a.date { margin:0 10px 0 0; }
+.dire_lastweibo .info a.unclick_rep { color:#cbcbcb; text-decoration:none; cursor:default; }
+.dire_lastweibo .info span { float:right; display:inline; }
+.dire_lastweibo .info span .W_vline { margin:0 5px; }
+
+
+/* 影视直达区 */
+.vedio_dircontent { _width:548px; padding:11px 0 9px; margin:0 10px; line-height:20px; position:relative;border-top: dotted 1px #ddebf3; margin-top: -2px;}
+.vedio_dircontent .chan_name { float:left;}
+.vedio_dircontent .chan_logo { margin-right:5px;}
+.vedio_dircontent .chan_logo img { vertical-align:middle; }
+.vedio_dircontent .vedio_exp .chan_main { margin-left:80px; overflow:hidden; zoom:1;}
+.vedio_dircontent .chan_list { margin-left:-14px;}
+.vedio_dircontent .chan_list li { float:left; word-break:break-strict; white-space:pre; height:20px; overflow:hidden;}
+.vedio_dircontent .v_line { color:#daedf5; margin:0 6px 0 10px; _visibility:hidden; _margin:0 3px 0 5px; }
+.vedio_dircontent .exp_fold .chan_name, .vedio_dircontent .exp_unfold .chan_name { width:80px; zoom:1;}
+
+
+
+.vedio_dircontent .chan_more { position:absolute; bottom:9px; right:10px;}
+.vedio_dircontent .chan_more .more_arr .more{display: inline-block;border-color: #0095cd transparent transparent transparent;font-size: 0;line-height: 0;width: 0;height: 0;vertical-align: middle;margin: 0 0 0 3px;text-decoration: none;}
+/* 收起 */
+.vedio_dircontent .exp_fold .chan_main, .vedio_dircontent .exp_unfold .chan_main { padding-right:37px; _padding-right:10px;_margin-bottom:15px; _margin-top:-15px; }
+.vedio_dircontent .exp_fold .chan_main { height:20px; overflow:hidden;}
+.vedio_dircontent .exp_fold .chan_more .more_arr .more{ border-color:#0082cb transparent transparent transparent; border-style: solid dashed dashed dashed;}
+/* 展开 */
+.vedio_dircontent .exp_unfold .chan_more .more_arr .more{	border-color: transparent transparent #0082cb transparent;border-style: dashed dashed solid dashed; }
+/* 单行 */
+.vedio_dircontent .exp_single .chan_main { height:20px; overflow:hidden;}
+/* 直播 */
+.vedio_dircontent .exp_live .chan_name { width:65px;}
+.vedio_dircontent .exp_live .chan_main { margin-left:65px; overflow:hidden;}
+.vedio_dircontent .exp_live .chan_nametxt { color:#666;}
+.vedio_dircontent .exp_live .chan_list { margin-left:0;}
+
+.vedio_dircontent .chan_live_name .search_icon { vertical-align:middle; margin-left:3px;}
+
+/* 电视台直达 */
+.vedio_dircontent .vedio_exp { color:#666;} 
+
+/* 微吧 */
+.bar_dir .list_bar { padding-bottom:5px;}
+.barlist_content { margin:-1px 10px 6px; position:relative;}
+.barlist_content .barcon_list { float:left; line-height:15px;}
+.barlist_content .barcon_list li { margin-bottom:7px;}
+.barlist_content .barcon_num { display:block; float:left; border: solid 1px #e3e3e3; border-radius:4px; background:#fafafa; width:78px; line-height:15px; text-align:center;}
+.barlist_content .barcon_txt { margin-left:90px;}
+.barlist_content .barlist_more { position:absolute; right:0; bottom:7px;}
+.bar_dir_box { _width:548px; padding:10px 0; margin:-1px 10px 0; border-top: dotted 1px #ddebf3; position:relative;}
+.bar_dir_box .bar_main_name a { line-height:14px; font-weight:bold; font-size:14px;}
+.bar_dir_box .bar_main_name .search_icon { vertical-align:middle; margin-right:2px;}
+.bar_dir_box .bar_num { margin-top:10px; color:#666;}
+.bar_dir_box .bar_num .W_vline { margin:0 5px;}
+
+.bar_dir_box .com_bar { position:absolute; top:10px; right:0px;}
+
+/* 应用直达区 */
+.app_author_dir {  margin:-1px 0 0; padding:0 10px;}
+.app_dir .app_author_dir{ padding:0; clear:both;}
+.app_author_dir .app_list { margin-top:-2px;padding:10px 0 0 0; border-top: dotted 1px #ddebf3; }
+
+
+
+/* 口碑直达区 */
+.praise_content_box { position:relative; _position:static; line-height:20px; color:#666; overflow:hidden;}
+.praise_content_box .praise_shop_detail { padding:5px 10px;}
+.praise_content_box .praise_shop_detail .name_more { margin-left:10px;}
+.praise_content_box .praise_link .link_tel .tel_num { margin-right:5px;}
+.praise_content_box .praise_link .praise_fee { margin-left:45px;}
+.praise_content_box .com_shop { position:absolute; right:10px; top:10px; _position:static; _float:right; _margin:-65px 5px 0 0}
+.praise_content_box .rela_shop { line-height:30px; height:30px; padding:0 10px; overflow:hidden; zoom:1; _width:548px;}
+.praise_content_box .rela_shop .shop_more { float:right; margin-left:20px;}
+.praise_content_box .rela_shop .list_link { display:inline-block; margin-right:10px; white-space:nowrap; word-break:break-all; word-wrap:break-word;}
+.praise_content_box .rela_shop .shop_all { float:right;text-align:right;}
+
+.praise_content_box .shop_more .more_arr { cursor:pointer;}
+.praise_content_box .shop_more .more_arr .txt { display:inline-block; float:left\0;}
+.praise_content_box .shop_more .more_arr .more{display: inline-block;border-color: #0095cd transparent transparent transparent;font-size: 0;line-height: 0;width: 0;height: 0;vertical-align: middle;margin: 0 0 0 3px;text-decoration: none; float:left\0; zoom:1;}
+.praise_content_box .shop_fold { height:30px; overflow:hidden;}
+.praise_content_box .shop_fold .shop_more .more_arr .more{ border-color:#0082cb transparent transparent transparent; border-style: solid dashed dashed dashed; *vertical-align:-4px; margin-top:15px\0;}
+.praise_content_box .shop_unfold { height:auto;}
+.praise_content_box .shop_unfold .shop_more .more_arr .more{ border-color: transparent transparent #0082cb transparent;border-style: dashed dashed solid dashed;  *vertical-align:3px; margin-top:12px\0;}
+
+
+/* 影视直达区 */
+.movie_dir .list_movie {  position:relative;padding:5px 10px;}
+.movie_dir .list_movie .movie_pic{ position:relative; width:83px; height:110px; float:left; text-align:center; border: solid 1px #eee;}
+.movie_dir .list_movie .movie_pic a { display:table-cell; width:83px; height:110px; text-align:center; vertical-align:middle;}
+.movie_dir .list_movie .movie_pic a img { width:80px;}
+.movie_dir .list_movie .movie_detail { margin-left:98px; line-height:21px; zoom:1; color:#666;}
+.movie_dir .list_movie .pic_info { display:block; background:url(../../images/common/pic_infobg.png) repeat; width:100%; line-height:20px; position:absolute; left:0; bottom:0; color:#fff; text-align:center;}
+.movie_dir .list_movie .movie_detail  .movie_name { font-size:14px; font-weight:bold;}
+
+.list_movie .movie_addr .m_icon { margin-right:2px; vertical-align:-2px; }
+
+.movie_card .tit { display:block; width:36px; float:left;}
+.movie_card .card_main { margin-left:36px; zoom:1;}
+.movie_adbtn{ position:absolute;right:0; top:0px; }
+
+
+.au_main { margin-right:10px;}
+.au_main .au_name { margin-right:5px;}
+
+
+.movie_exp { margin-top:10px;}
+.movie_exp .exp_num { display:inline-block; background:url(../../images/common/filmdir_bg.png) repeat-x #fefefe; width:29px; height:16px; line-height:16px; border: solid 1px #ededed; color:#808080; text-align:center; margin:0 8px 5px 0; position: relative;}
+.movie_exp .exp_num:hover, .movie_exp a.cur { background:#7aa5b9; color:#fff; border-color:#7aa5b9; text-decoration:none;}
+.movie_exp .exp_num .icon_filmnew { position:absolute; top:-9px; right:-8px;}
+.movie_exp .W_moredownb { *vertical-align:middle; float:right;  margin-right: 35px; *margin-top:-23px;}
+
+.movie_epo { margin-top:10px;}
+.movie_epo .epo_num { display:inline-block; background:url(../../images/common/filmdir_bg.png) repeat-x #fefefe; width:136px; height:16px; line-height:16px; border: solid 1px #ededed; color:#808080; text-align:left; margin:0 6px 5px 0; _margin-right:2px; position:relative;}
+.movie_epo .epo_num:hover, .movie_epo a.cur { background:#7aa5b9; color:#fff; border-color:#7aa5b9; text-decoration:none;}
+.movie_epo .W_moredownb { *vertical-align:middle; float:right;margin-right: 28px; *margin-top:-23px;}
+.movie_epo .epo_num .epo_num_txt {width:136px; height:16px; overflow:hidden; display:inline-block; float:left;}
+.movie_epo .epo_num .icon_filmnew { position:absolute; top:-9px; right:-8px;}
+.movie_dir_box { margin:-1px 10px 0; padding:10px 0; position:relative; border-top: dotted 1px #ddebf3;}
+.movie_dir_box .movgov_tit a { font-size:14px;}
+.movie_dir_box .movgov_tit .sub_tit { font-size:12px; font-weight:normal; color:#999; margin-left:5px;}
+.movie_dir_box .movgov_num { color:#666; margin-top:10px;}
+
+.movie_dir_box .moviedir_adbtn { position:absolute; right:0; top:10px; _right:50px;}
+.movie_dir_box .W_vline{ margin:0 5px;}
+
+
+
+/* 明星直达区 */
+.star_dir .list_star { color:#808080; margin-top:4px;}
+.star_dir .list_star .star_pic { float:left; }
+.star_dir .list_star .star_pic a { display:block; width:86px; height:86px; zoom:1; }
+.star_dir .list_star .star_pic a img{ width:86px; height:86px;}
+.star_dir .list_star .star_adbtn { float:right; margin-top:4px;text-align: right; }
+.star_dir .list_star .star_detail { margin:0 0 0 100px; line-height:21px; zoom:1; }
+.star_dir .list_star .star_detail .star_name .name_txt { font-size:14px; font-weight: 700; margin-right:5px; color:#333;}
+.star_dir .list_star .star_detail .star_name .W_fr{ margin-top:-6px;}
+.star_dir .list_star .star_detail .star_name .name_txt:hover{ color:#eb7350;}
+.star_dir .list_star .star_addr { margin-top:2px; }
+.star_dir .list_star .star_addr .m_icon { margin-right:2px; vertical-align:-2px; }
+.star_dir .list_star .star_addr .wb_url { margin-left:9px; }
+.star_dir .list_star .star_num { margin-top: 7px;}
+.star_dir .list_star .star_num span { margin-right:12px; }
+.star_dir .list_star .star_num span a { margin-left:5px; }
+.star_dir .list_star .star_label a { margin-right:6px; }
+.star_dir .list_star .star_card { margin-top: 3px}
+.star_dir .star_num span { margin-right:5px;}
+.star_dir .star_num .W_vline { margin:0 12px 0 0;}
+
+
+
+.star_dir .stardir_rank { float: right; *width: 150px; margin-top:-6px;}
+.star_dir .dirrank_box{ border:1px solid #eaeaea;}
+.star_dir .dirrank_titwrap { }
+.star_dir .dirrank_titwrap .dirrank_tit { color:#a1a1a1; line-height:22px; padding:4px 0; margin:0 1px; border-bottom:1px solid #eaeaea;}
+.star_dir .startit_num {text-align: center; width:48px; display:inline-block;}
+.star_dir .icon_rank01B, .star_dir .icon_rank02B, .star_dir .icon_rank03B { position: absolute; top: -2px; left:19px; }
+.star_dir .starrank_2n { margin-left:2px;}
+.star_dir .startit_txt { padding:0 5px 0 5px;}
+.star_dir .startit_txt a{ color:#a1a1a1;}
+.star_dir .dirrank_titwrap .tit_ranktop .startit_txt { width:98px; text-align:center; display:inline-block;}
+.star_dir .dirrank_num { background: #fff;  line-height: 24px; padding:3px 0;}
+.star_dir .dirrank_num .starnum_num {display: inline-block; width: 82px; text-align: center; color:#eb7350;}
+.star_dir .dirrank_num .num_strong {font-size: 14px; font-weight: normal;}
+.star_dir .starnum_action a { margin-right: 5px;}
+.star_dir .star_share { margin-top:10px; float: right;}
+.star_dir .star_share .search_icon { vertical-align:-2px; margin-right: 2px;}
+.star_dir .star_other { border-top: dotted 1px #ddebf3; }
+.star_dir .star_other .other_btn{ padding: 10px 0 0; margin:0  -5px;}
+.star_dir .other_btn li { float: left; margin:0 5px; _margin: 0 3px;}
+.star_dir .other_btn .Wbl_btn .ranknav_icon, .star_dir .other_btn .Wbl_btn .search_icon { vertical-align: middle; margin-right: 6px;}
+
+	/* 2014璀璨恒星 */
+	.wbs_2014star_dir > div { font-family: "Microsoft YaHei"; width: 690px; height: 238px; position: relative; margin-bottom: 10px; }
+	.wbs_2014star_dir .star_pic { width: 112px; height: 106px; padding-top: 6px; background: url(../../images_v6/common/wbs_2014star_pic_bg.gif) no-repeat; border-radius: 50%; position: absolute; top: 50%; left: 20px; margin-top: -60px; box-shadow: 0 0 15px #def8ff; text-align: center; vertical-align: middle; }
+	.wbs_2014star_dir .star_pic img { width: 100px; height: 100px; }
+	.wbs_2014star_dir .star_detail { width: 300px; float: left; margin-left: 155px; margin-top: 15px;line-height: 25px; }
+	.wbs_2014star_dir .star_detail .star_name a { vertical-align: middle; }
+	.wbs_2014star_dir .star_detail .name_txt { font-size: 22px; font-weight: 300; line-height: normal; }
+	.wbs_2014star_dir .star_detail .approve { vertical-align: middle; }
+	.wbs_2014star_dir .W_btn_b6 { vertical-align: middle; margin-left: 5px; }
+	.wbs_2014star_dir .star_num { margin-top: 15px; *margin-top: 0; }
+	.wbs_2014star_dir .star_num dt, .wbs_2014star_dir .star_num dd, .wbs_2014star_dir .star_rank dt { display: inline; }
+	.wbs_2014star_dir .star_num dd { margin-right: 10px; }
+	.wbs_2014star_dir .star_num a:hover, .wbs_2014star_dir .star_card a:hover { text-decoration: underline; }
+	.wbs_2014star_dir .star_detail div { height: 103px; }
+	.wbs_2014star_dir .star_detail p { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+	.wbs_2014star_dir .star_intro { width: 290px; }
+	.wbs_2014star_dir .star_newwb img { vertical-align: middle; margin: 0 3px; }
+	.wbs_2014star_dir .star_newwb .W_btn_c6 { padding: 0 5px!important; height: 20px; line-height: 20px; width: auto; min-width: 28px; _width: 28px; margin: 0 2px; display: inline-block; border: 1px solid #d9d9d9; background: #f2f2f2; border-radius: 2px; vertical-align: middle; box-shadow: none; }
+	.wbs_2014star_dir .star_rank dt { float: left; }
+	.wbs_2014star_dir .star_rank { margin-top: 0px; }
+	.wbs_2014star_dir .star_rank dt { font-size: 14px; }
+	.wbs_2014star_dir .star_rank dd { font-size: 23px; font-weight: 700; -webkit-transform: skew(1,-1deg); -moz-transform: skew(0,-1deg); -o-transform: skew(0,-1deg); transform: skew(-10deg,-1deg); vertical-align: top; *margin-top:-5px; }
+	.wbs_2014star_dir .star_rank dd em { font-weight: 700; }
+		/* 鹿晗skin */
+		.wbs_2014star_luhan { background: url(../../images_v6/common/star_dir_bg_luhan_20160302.png) no-repeat; }
+		.wbs_2014star_luhan .star_detail, .wbs_2014star_luhan .name_txt, .wbs_2014star_luhan .star_rank a { color: #000; }
+		.wbs_2014star_luhan .star_card a, .wbs_2014star_luhan .star_num a, .wbs_2014star_luhan .star_newwb a { color: #2f8ed8; }
+		.wbs_2014star_luhan .star_rank dd a { color: #fff; }
+		.wbs_2014star_luhan .star_rank dd a em { color: #ffb600; }
+		/* 杨洋skin */
+		.wbs_2014star_yy { background: url(../../images_v6/common/star_dir_bg_yy_20151214.png) no-repeat; }
+		.wbs_2014star_yy .star_detail, .wbs_2014star_yy .name_txt, .wbs_2014star_yy .star_rank a { color: #333; }
+		.wbs_2014star_yy .star_card a, .wbs_2014star_yy .star_num a, .wbs_2014star_yy .star_newwb a { color: #e3cb8c; }
+		.wbs_2014star_yy .star_rank dd a em { color: #e4cc8b; }
+		/* 李易峰skin */
+		.wbs_2014star_lyf { background: url(../../images_v6/common/star_dir_bg_lyf.png) no-repeat; }
+		.wbs_2014star_lyf .star_detail, .wbs_2014star_lyf .name_txt, .wbs_2014star_lyf .star_rank a { color: #fff; }
+		.wbs_2014star_lyf .star_card a, .wbs_2014star_lyf .star_num a, .wbs_2014star_lyf .star_newwb a { color: #82cef5; }
+		.wbs_2014star_lyf .star_rank dd a em { color: #e4cc8b; }
+		/* 刘亦菲skin */
+		.wbs_2014star_liuyf { background: url(../../images_v6/common/star_dir_bg_liuyf.png) no-repeat; }
+		.wbs_2014star_liuyf .star_pic { background: none; box-shadow: none; }
+		.wbs_2014star_liuyf .star_detail, .wbs_2014star_liuyf .name_txt { color: #333; }
+		.wbs_2014star_liuyf .star_card a, .wbs_2014star_liuyf .star_num a, .wbs_2014star_liuyf .star_newwb a { color: #6097d6; }
+		.wbs_2014star_liuyf .star_rank a { color: #999; }
+		.wbs_2014star_liuyf .star_rank dd a em { color: #e4cc8b; }
+		/* 吴亦凡skin */
+		.wbs_2014star_wyf { background: url(../../images_v6/common/star_dir_bg_wyf.png) no-repeat; }
+		.wbs_2014star_wyf .star_detail, .wbs_2014star_wyf .name_txt, .wbs_2014star_wyf .star_rank a { color: #fff; }
+		.wbs_2014star_wyf .star_card a, .wbs_2014star_wyf .star_num a, .wbs_2014star_wyf .star_newwb a { color: #82cef5; }
+		.wbs_2014star_wyf .star_rank dd a em { color: #e4cc8b; }
+		/* 张碧晨skin */
+		.wbs_2014star_zbc { background: url(../../images_v6/common/star_dir_bg_zbc.png) no-repeat; }
+		.wbs_2014star_zbc .star_pic { background: none; box-shadow: none; }
+		.wbs_2014star_zbc .star_detail, .wbs_2014star_zbc .name_txt { color: #333; }
+		.wbs_2014star_zbc .star_card a, .wbs_2014star_zbc .star_num a, .wbs_2014star_zbc .star_newwb a { color: #6097d6; }
+		.wbs_2014star_zbc .star_rank a { color: #999; }
+		.wbs_2014star_zbc .star_rank dd a em { color: #e4cc8b; }
+		/* 唐嫣skin */
+		.wbs_2014star_ty { background: url(../../images_v6/common/star_dir_bg_ty_20151228.png) no-repeat; }
+		.wbs_2014star_ty .star_detail, .wbs_2014star_ty .name_txt { color: #333; }
+		.wbs_2014star_ty .star_card a, .wbs_2014star_ty .star_num a, .wbs_2014star_ty .star_newwb a { color: #6097d6; }
+		.wbs_2014star_ty .star_rank a { color: #fff; text-shadow: 0 2px 5px #85b4cb; }
+		.wbs_2014star_ty .star_rank dd a em { color: #82addc; }
+		/* 易烊千玺skin */
+		.wbs_2014star_yyqx .star_pic { background: #fff; box-shadow: none; }
+		.wbs_2014star_yyqx { background: url(../../images_v6/common/star_dir_bg_yyqx_20160308.png) no-repeat; }
+		.wbs_2014star_yyqx .star_detail, .wbs_2014star_yyqx .name_txt, .wbs_2014star_yyqx .star_rank a { color: #fff; }
+		.wbs_2014star_yyqx .star_card a, .wbs_2014star_yyqx .star_num a, .wbs_2014star_yyqx .star_newwb a { color: #08b3fc; }
+		.wbs_2014star_yyqx .star_rank dd a em { color: #ffb600; }
+		/* 刘志宏skin */
+		.wbs_2014star_lzh { background: url(../../images_v6/common/star_dir_bg_lzh.png) no-repeat; }
+		.wbs_2014star_lzh .star_detail, .wbs_2014star_lzh .name_txt, .wbs_2014star_lzh .star_rank a { color: #333; }
+		.wbs_2014star_lzh .star_card a, .wbs_2014star_lzh .star_num a, .wbs_2014star_lzh .star_newwb a { color: #6097d6; }
+		.wbs_2014star_lzh .star_rank a { color: #999; }
+		.wbs_2014star_lzh .star_rank dd a em { color: #e4cc8b; }
+		/* 王俊凯skin */
+		.wbs_2014star_wjk .star_pic { background: #fff }
+		.wbs_2014star_wjk { background: url(../../images_v6/common/star_dir_bg_wjk_20150306.png) no-repeat; }
+		.wbs_2014star_wjk .star_detail, .wbs_2014star_wjk .name_txt, .wbs_2014star_wjk .star_rank a { color: #fff; }
+		.wbs_2014star_wjk .star_card a, .wbs_2014star_wjk .star_num a, .wbs_2014star_wjk .star_newwb a { color: #93e6ff; }
+		.wbs_2014star_wjk .star_rank dd a em { color: #e4cc8b; }
+		/* 吴世勋skin */
+		.wbs_2014star_wsx { background: url(../../images_v6/common/star_dir_bg_wsx_20160104.png) no-repeat; }
+		.wbs_2014star_wsx .star_detail, .wbs_2014star_wsx .name_txt, .wbs_2014star_wsx .star_rank a { color: #fff; }
+		.wbs_2014star_wsx .star_card a, .wbs_2014star_wsx .star_num a, .wbs_2014star_wsx .star_newwb a, .wbs_2014star_wsx .star_rank dd a em { color: #ffb600; }
+		/* 王源skin */
+		.wbs_2014star_wy { background: url(../../images_v6/common/star_dir_bg_wy_20150305.png) no-repeat; }
+		.wbs_2014star_wy .star_detail, .wbs_2014star_wy .name_txt { color: #fff; }
+		.wbs_2014star_wy .star_card a, .wbs_2014star_wy .star_num a, .wbs_2014star_wy .star_newwb a { color: #93e6ff; }
+		.wbs_2014star_wy .star_rank a { color: #fff; }
+		.wbs_2014star_wy .star_rank dd a em { color: #e4cc8b; }
+		/* 周笔畅skin */
+		.wbs_2014star_zhoubc { background: url(../../images_v6/common/star_dir_bg_zhoubc_20151221.png) no-repeat; }
+		.wbs_2014star_zhoubc .star_detail, .wbs_2014star_zhoubc .name_txt { color: #000; }
+		.wbs_2014star_zhoubc .star_card a, .wbs_2014star_zhoubc .star_num a, .wbs_2014star_zhoubc .star_newwb a { color: #6097d6; }
+		.wbs_2014star_zhoubc .star_rank a { color: #bfbfbf; }
+		.wbs_2014star_zhoubc .star_rank dd a em { color: #ffb600; }
+		/* 马苏skin */
+		.wbs_2014star_ms { background: url(../../images_v6/common/star_dir_bg_ms.png) no-repeat; }
+		.wbs_2014star_ms .star_detail, .wbs_2014star_ms .name_txt, .wbs_2014star_ms .star_rank a { color: #fff; }
+		.wbs_2014star_ms .star_card a, .wbs_2014star_ms .star_num a, .wbs_2014star_ms .star_newwb a { color: #82cef5; }
+		.wbs_2014star_ms .star_rank dd a em { color: #e4cc8b; }
+		/* 乔振宇skin */
+		.wbs_2014star_qzy { background: url(../../images_v6/common/star_dir_bg_qzy.png) no-repeat; }
+		.wbs_2014star_qzy .star_detail, .wbs_2014star_qzy .name_txt, .wbs_2014star_qzy .star_rank a { color: #fff; }
+		.wbs_2014star_qzy .star_card a, .wbs_2014star_qzy .star_num a, .wbs_2014star_qzy .star_newwb a { color: #6097d6; }
+		.wbs_2014star_qzy .star_rank dd a em { color: #e4cc8b; }
+		/* 钟汉良skin */
+		.wbs_2014star_zhl { background: url(../../images_v6/common/star_dir_bg_zhl_20151217.png) no-repeat; }
+		.wbs_2014star_zhl .star_detail, .wbs_2014star_zhl .name_txt { color: #fff; }
+		.wbs_2014star_zhl .star_card a, .wbs_2014star_zhl .star_num a, .wbs_2014star_zhl .star_newwb a { color: #6097d6; }
+		.wbs_2014star_zhl .star_rank a { color: #bfbfbf; }
+		.wbs_2014star_zhl .star_rank dd a em { color: #ffb600; }
+		/* 刘诗诗skin */
+		.wbs_2014star_lss { background: url(../../images_v6/common/star_dir_bg_lss.png) no-repeat; }
+		.wbs_2014star_lss .star_detail, .wbs_2014star_lss .name_txt, .wbs_2014star_lss .star_rank a { color: #333; }
+		.wbs_2014star_lss .star_card a, .wbs_2014star_lss .star_num a, .wbs_2014star_lss .star_newwb a, .wbs_2014star_lss .star_rank dd a em { color: #a06026; }
+		.wbs_2014star_lss .star_rank a { color: #fff; text-shadow: 0 2px 5px #958b5d; }
+		/* 胡歌skin */
+		.wbs_2014star_hg { background: url(../../images_v6/common/star_dir_bg_hg_20151224.png) no-repeat; }
+		.wbs_2014star_hg .star_detail, .wbs_2014star_hg .name_txt, .wbs_2014star_hg .star_rank a { color: #000; }
+		.wbs_2014star_hg .star_card a, .wbs_2014star_hg .star_num a { color: #8c1400; }
+		.wbs_2014star_hg .star_rank dd a { color: #938472 }
+		.wbs_2014star_hg .star_rank dd a em { color: #943121; }
+		/* 张艺兴skin */
+		.wbs_2014star_zyx { background: url(../../images_v6/common/star_dir_bg_zyx.png) no-repeat; }
+		.wbs_2014star_zyx .star_detail, .wbs_2014star_zyx .name_txt, .wbs_2014star_zyx .star_rank a { color: #fff; }
+		.wbs_2014star_zyx .star_card a, .wbs_2014star_zyx .star_num a, .wbs_2014star_zyx .star_newwb a { color: #82cef5; }
+		.wbs_2014star_zyx .star_rank dd a em { color: #e4cc8b; }
+		/* 华晨宇skin */
+		.wbs_2014star_hcy { background: url(../../images_v6/common/star_dir_bg_hcy_20151230.png) no-repeat; }
+		.wbs_2014star_hcy .star_detail, .wbs_2014star_hcy .name_txt, .wbs_2014star_hcy .star_rank a, .wbs_2014star_hcy .star_rank dd a { color: #fff; }
+		.wbs_2014star_hcy .star_card a, .wbs_2014star_hcy .star_num a, .wbs_2014star_hcy .star_newwb a { color: #82cef5; }
+		.wbs_2014star_hcy .star_rank dd a em { color: #e4cc8b; }
+		/* 宋茜skin */
+		.wbs_2014star_sq { background: url(../../images_v6/common/star_dir_bg_sq_20151221.png) no-repeat; }
+		.wbs_2014star_sq .star_detail, .wbs_2014star_sq .name_txt, .wbs_2014star_sq .star_rank a { color: #333; }
+		.wbs_2014star_sq .star_card a, .wbs_2014star_sq .star_num a, .wbs_2014star_sq .star_newwb a, .wbs_2014star_sq .star_rank dd a em { color: #f15240; }
+		.wbs_2014star_sq .star_rank a { color: #fff; text-shadow: 0 2px 5px #f15240; }
+		/* TFBOYSskin */
+		.wbs_2014star_tfboys { background: url(../../images_v6/common/star_dir_bg_tfboys_20151223.png) no-repeat; }
+		.wbs_2014star_tfboys .star_detail, .wbs_2014star_tfboys .name_txt { color: #333; }
+		.wbs_2014star_tfboys .star_card a, .wbs_2014star_tfboys .star_num a, .wbs_2014star_tfboys .star_newwb a { color: #00b045; }
+		.wbs_2014star_tfboys .star_rank a { color: #fff; }
+		.wbs_2014star_tfboys .star_rank dd a em { color: #fbbc18; }
+		/* 陈伟霆skin */
+		.wbs_2014star_cwt { background: url(../../images_v6/common/star_dir_bg_cwt_20151225.png) no-repeat; }
+		.wbs_2014star_cwt .star_detail, .wbs_2014star_cwt .name_txt, .wbs_2014star_cwt .star_rank a { color: #fff; }
+		.wbs_2014star_cwt .star_card a, .wbs_2014star_cwt .star_num a, .wbs_2014star_cwt .star_newwb a { color: #93e6ff; }
+		.wbs_2014star_cwt .star_rank a { color: #fff; text-shadow: 0 0 10px #fff; }
+		.wbs_2014star_cwt .star_rank dd a em { color: #fcb500; }
+		/* 黄子韬skin */
+		.wbs_2014star_hzt .star_pic { background: url(../../images_v6/common/wbs_2014star_pic_bg2.gif) no-repeat }
+		.wbs_2014star_hzt { background: url(../../images_v6/common/star_dir_bg_hzt.png) no-repeat; }
+		.wbs_2014star_hzt .star_detail, .wbs_2014star_hzt .name_txt, .wbs_2014star_hzt .star_rank a { color: #fff; }
+		.wbs_2014star_hzt .star_card a, .wbs_2014star_hzt .star_num a, .wbs_2014star_hzt .star_newwb a { color: #82cef5; }
+		.wbs_2014star_hzt .star_rank dd a em { color: #e4cc8b; }
+		/* 钟欣桐skin */
+		.wbs_2014star_zxt .star_pic { background: url(../../images_v6/common/wbs_2014star_pic_bg1.gif) no-repeat }
+		.wbs_2014star_zxt { background: url(../../images_v6/common/star_dir_bg_zxt.png) no-repeat; }
+		.wbs_2014star_zxt .star_detail, .wbs_2014star_zxt .name_txt, .wbs_2014star_zxt .star_rank a { color: #fff; }
+		.wbs_2014star_zxt .star_card a, .wbs_2014star_zxt .star_num a, .wbs_2014star_zxt .star_newwb a, .wbs_2014star_zxt .star_rank dd a em { color: #f5828f; }
+		/* 郑容和skin */
+		.wbs_2014star_zrh .star_pic { background: url(../../images_v6/common/wbs_2014star_pic_bg2.gif) no-repeat }
+		.wbs_2014star_zrh { background: url(../../images_v6/common/star_dir_bg_zrh.png) no-repeat; }
+		.wbs_2014star_zrh .star_detail, .wbs_2014star_zrh .name_txt, .wbs_2014star_zrh .star_rank a  { color: #fff; }
+		.wbs_2014star_zrh .star_card a, .wbs_2014star_zrh .star_num a, .wbs_2014star_zrh .star_newwb a { color: #82cef5; }
+		.wbs_2014star_zrh .star_rank dd a em { color: #e4cc8b; }
+		/* 张智尧skin */
+		.wbs_2014star_zzr .star_pic { background: url(../../images_v6/common/wbs_2014star_pic_bg2.gif) no-repeat }
+		.wbs_2014star_zzr { background: url(../../images_v6/common/star_dir_bg_zzr.png) no-repeat; }
+		.wbs_2014star_zzr .star_detail, .wbs_2014star_zzr .name_txt, .wbs_2014star_zzr .star_rank a  { color: #fff; }
+		.wbs_2014star_zzr .star_card a, .wbs_2014star_zzr .star_num a, .wbs_2014star_zzr .star_newwb a { color: #8fad55; }
+		.wbs_2014star_zzr .star_rank dd a em { color: #e4cc8b; }
+		/* 宋承宪skin */
+		.wbs_2014star_scx { background: url(../../images_v6/common/star_dir_bg_scx.png) no-repeat; }
+		.wbs_2014star_scx .star_detail, .wbs_2014star_scx .name_txt { color: #333; }
+		.wbs_2014star_scx .star_card a, .wbs_2014star_scx .star_num a, .wbs_2014star_scx .star_newwb a { color: #bc8070; }
+		.wbs_2014star_scx .star_rank a { color: #999; }
+		.wbs_2014star_scx .star_rank dd a em { color: #e4cc8b; }
+		/* 欧豪skin */
+		.wbs_2014star_oh .star_pic { background: url(../../images_v6/common/wbs_2014star_pic_bg2.gif) no-repeat }
+		.wbs_2014star_oh { background: url(../../images_v6/common/star_dir_bg_oh.png) no-repeat; }
+		.wbs_2014star_oh .star_detail, .wbs_2014star_oh .name_txt, .wbs_2014star_oh .star_rank a  { color: #fff; }
+		.wbs_2014star_oh .star_card a, .wbs_2014star_oh .star_num a, .wbs_2014star_oh .star_newwb a { color: #93e6ff; }
+		.wbs_2014star_oh .star_rank dd a em { color: #e4cc8b; }
+		/* 白举纲skin */
+		.wbs_2014star_bjg .star_pic { background: url(../../images_v6/common/wbs_2014star_pic_bg2.gif) no-repeat }
+		.wbs_2014star_bjg { background: url(../../images_v6/common/star_dir_bg_bjg.png) no-repeat; }
+		.wbs_2014star_bjg .star_detail, .wbs_2014star_bjg .name_txt, .wbs_2014star_bjg .star_rank a  { color: #fff; }
+		.wbs_2014star_bjg .star_card a, .wbs_2014star_bjg .star_num a, .wbs_2014star_bjg .star_newwb a { color: #c5e997; }
+		.wbs_2014star_bjg .star_rank dd a em { color: #e4cc8b; }
+		/* 吴奇隆skin */
+		.wbs_2014star_wql { background: url(../../images_v6/common/star_dir_bg_wql.png) no-repeat; }
+		.wbs_2014star_wql .star_detail, .wbs_2014star_wql .name_txt, .wbs_2014star_wql .star_rank a  { color: #fff; }
+		.wbs_2014star_wql .star_card a, .wbs_2014star_wql .star_num a, .wbs_2014star_wql .star_newwb a { color: #f6a96e; }
+		.wbs_2014star_wql .star_rank dd a em { color: #e4cc8b; }
+		/* 陈翔skin */
+		.wbs_2014star_cx .star_pic { background: url(../../images_v6/common/wbs_2014star_pic_bg2.gif) no-repeat }
+		.wbs_2014star_cx { background: url(../../images_v6/common/star_dir_bg_cx.png) no-repeat; }
+		.wbs_2014star_cx .star_detail, .wbs_2014star_cx .name_txt, .wbs_2014star_cx .star_rank a  { color: #fff; }
+		.wbs_2014star_cx .star_card a, .wbs_2014star_cx .star_num a, .wbs_2014star_cx .star_newwb a { color: #93e6ff; }
+		.wbs_2014star_cx .star_rank dd a em { color: #e4cc8b; }
+		/* Rainskin */
+		.wbs_2014star_rain { background: url(../../images_v6/common/star_dir_bg_rain.png) no-repeat; }
+		.wbs_2014star_rain .star_detail, .wbs_2014star_rain .name_txt { color: #333; }
+		.wbs_2014star_rain .star_card a, .wbs_2014star_rain .star_num a, .wbs_2014star_rain .star_newwb a { color: #6097d6; }
+		.wbs_2014star_rain .star_rank a { color: #999; }
+		.wbs_2014star_rain .star_rank dd a em { color: #e4cc8b; }
+		/* 尼坤skin */
+		.wbs_2014star_nk { background: url(../../images_v6/common/star_dir_bg_nk1.png) no-repeat; }
+		.wbs_2014star_nk .star_detail, .wbs_2014star_nk .name_txt, .wbs_2014star_nk .star_rank a { color: #333; }
+		.wbs_2014star_nk .star_card a, .wbs_2014star_nk .star_num a, .wbs_2014star_nk .star_newwb a { color: #318181; }
+		.wbs_2014star_nk .star_rank a { color: #fff; text-shadow: 0 2px 5px #465863; }
+		.wbs_2014star_nk .star_rank dd a em { color: #ddc073; }
+		/* 姜敏赫skin */
+		.wbs_2014star_jmh { background: url(../../images_v6/common/star_dir_bg_jmh.png) no-repeat; }
+		.wbs_2014star_jmh .star_detail, .wbs_2014star_jmh .name_txt { color: #333; }
+		.wbs_2014star_jmh .star_card a, .wbs_2014star_jmh .star_num a, .wbs_2014star_jmh .star_newwb a { color: #6097d6; }
+		.wbs_2014star_jmh .star_rank a { color: #999; }
+		.wbs_2014star_jmh .star_rank dd a em { color: #e4cc8b; }
+		/* 宁桓宇skin */
+		.wbs_2014star_yhy .star_pic { background: url(../../images_v6/common/wbs_2014star_pic_bg2.gif) no-repeat }
+		.wbs_2014star_yhy { background: url(../../images_v6/common/star_dir_bg_yhy.png) no-repeat; }
+		.wbs_2014star_yhy .star_detail, .wbs_2014star_yhy .name_txt, .wbs_2014star_yhy .star_rank a  { color: #fff; }
+		.wbs_2014star_yhy .star_card a, .wbs_2014star_yhy .star_num a, .wbs_2014star_yhy .star_newwb a { color: #d5775e; }
+		.wbs_2014star_yhy .star_rank dd a em { color: #e4cc8b; }
+		/* 罗晋skin */
+		.wbs_2014star_lj .star_pic { background: url(../../images_v6/common/wbs_2014star_pic_bg2.gif) no-repeat }
+		.wbs_2014star_lj { background: url(../../images_v6/common/star_dir_bg_lj.png) no-repeat; }
+		.wbs_2014star_lj .star_detail, .wbs_2014star_lj .name_txt, .wbs_2014star_lj .star_rank a  { color: #fff; }
+		.wbs_2014star_lj .star_card a, .wbs_2014star_lj .star_num a, .wbs_2014star_lj .star_newwb a { color: #82cef5; }
+		.wbs_2014star_lj .star_rank dd a em { color: #e4cc8b; }
+		/* 吴昕skin */
+		.wbs_2014star_wx .star_pic { background: url(../../images_v6/common/wbs_2014star_pic_bg2.gif) no-repeat }
+		.wbs_2014star_wx { background: url(../../images_v6/common/star_dir_bg_wx_20151231.png) no-repeat; }
+		.wbs_2014star_wx .star_detail, .wbs_2014star_wx .name_txt, .wbs_2014star_wx .star_rank a  { color: #333; }
+		.wbs_2014star_wx .star_card a, .wbs_2014star_wx .star_num a, .wbs_2014star_wx .star_newwb a { color: #fc7997; }
+		.wbs_2014star_wx .star_rank a { color: #fff; text-shadow: 0 2px 5px #85b4cb; }
+		.wbs_2014star_wx .star_rank dd a em { color: #fc7997; }
+		/* 张若昀skin */
+		.wbs_2014star_zry .star_pic { background: url(../../images_v6/common/wbs_2014star_pic_bg2.gif) no-repeat }
+		.wbs_2014star_zry { background: url(../../images_v6/common/star_dir_bg_zry.png) no-repeat; }
+		.wbs_2014star_zry .star_detail, .wbs_2014star_zry .name_txt, .wbs_2014star_zry .star_rank a  { color: #333; }
+		.wbs_2014star_zry .star_card a, .wbs_2014star_zry .star_num a, .wbs_2014star_zry .star_newwb a { color: #6097d6; }
+		.wbs_2014star_zry .star_rank a { color: #999; }
+		.wbs_2014star_zry .star_rank dd a em { color: #dfc580; }
+		/* 林志颖skin */
+		.wbs_2014star_lzy { background: url(../../images_v6/common/star_dir_bg_lzy.png) no-repeat; }
+		.wbs_2014star_lzy .star_detail, .wbs_2014star_lzy .name_txt, .wbs_2014star_lzy .star_rank a  { color: #fff; }
+		.wbs_2014star_lzy .star_card a, .wbs_2014star_lzy .star_num a, .wbs_2014star_lzy .star_newwb a { color: #93e6ff; }
+		.wbs_2014star_lzy .star_rank dd a em { color: #e4cc8b; }
+		/* 俞灏明skin */
+		.wbs_2014star_yhm { background: url(../../images_v6/common/star_dir_bg_yhm.png) no-repeat; }
+		.wbs_2014star_yhm  .star_detail, .wbs_2014star_yhm  .name_txt, .wbs_2014star_yhm  .star_rank a  { color: #333; }
+		.wbs_2014star_yhm  .star_card a, .wbs_2014star_yhm  .star_num a, .wbs_2014star_yhm  .star_newwb a { color: #6097d6; }
+		.wbs_2014star_yhm .star_rank a { color: #fff; text-shadow: 0 2px 5px #465863; }
+		.wbs_2014star_yhm  .star_rank dd a em { color: #e4cc8b; }
+		/* 于湉skin */
+		.wbs_2014star_yt { background: url(../../images_v6/common/star_dir_bg_yt.png) no-repeat; }
+		.wbs_2014star_yt  .star_detail, .wbs_2014star_yt  .name_txt, .wbs_2014star_yt  .star_rank a { color: #333; }
+		.wbs_2014star_yt  .star_card a, .wbs_2014star_yt  .star_num a, .wbs_2014star_yt  .star_newwb a { color: #6097d6; }
+		.wbs_2014star_yt .star_rank a { color: #999; }
+		.wbs_2014star_yt  .star_rank dd a em { color: #dfc580; }
+		/* 武艺skin */
+		.wbs_2014star_wuyi { background: url(../../images_v6/common/star_dir_bg_wuyi.png) no-repeat; }
+		.wbs_2014star_wuyi  .star_detail, .wbs_2014star_wuyi  .name_txt, .wbs_2014star_wuyi  .star_rank a { color: #333; }
+		.wbs_2014star_wuyi  .star_card a, .wbs_2014star_wuyi  .star_num a, .wbs_2014star_wuyi  .star_newwb a, .wbs_2014star_wuyi .star_rank dd a em { color: #a06026; }
+		.wbs_2014star_wuyi .star_rank a { color: #fff; text-shadow: 0 2px 5px #465863; }
+		/* 赵丽颖skin */
+		.wbs_2014star_zly { background: url(../../images_v6/common/star_dir_bg_zly_20151221.png) no-repeat; }
+		.wbs_2014star_zly .star_detail, .wbs_2014star_zly .name_txt, .wbs_2014star_zly .star_rank a { color: #333; }
+		.wbs_2014star_zly .star_card a, .wbs_2014star_zly .star_num a, .wbs_2014star_zly .star_newwb a { color: #ff37a0; }
+		.wbs_2014star_zly .star_rank a { color: #fff; }
+		.wbs_2014star_zly .star_rank dd a em { color: #ff37a0; }
+		/* 王凯skin */
+		.wbs_2014star_wk { background: url(../../images_v6/common/star_dir_bg_wk_20151217.png) no-repeat; }
+		.wbs_2014star_wk .star_detail, .wbs_2014star_wk .name_txt, .wbs_2014star_wk .star_rank a { color: #333; }
+		.wbs_2014star_wk .star_card a, .wbs_2014star_wk .star_num a, .wbs_2014star_wk .star_newwb a { color: #6097d6; }
+		.wbs_2014star_wk .star_rank a { color: #bfbfbf; }
+		.wbs_2014star_wk .star_rank dd a em { color: #ffb600; }
+		/* 王凯skin */
+		.wbs_2014star_fbb { background: url(../../images_v6/common/star_dir_bg_fbb_20151221.png) no-repeat; }
+		.wbs_2014star_fbb .star_detail, .wbs_2014star_fbb .name_txt, .wbs_2014star_fbb .star_rank a { color: #fff; }
+		.wbs_2014star_fbb .star_card a, .wbs_2014star_fbb .star_num a, .wbs_2014star_fbb .star_newwb a { color: #81bbd8; }
+		.wbs_2014star_fbb .star_rank a { color: #fff; text-shadow: 0 0 15px #fff; }
+		.wbs_2014star_fbb .star_rank dd a em { color: #ff8a85; }
+		/* 朴灿烈skin */
+		.wbs_2014star_pcl { background: url(../../images_v6/common/star_dir_bg_pcl_20151231.png) no-repeat; }
+		.wbs_2014star_pcl .star_detail, .wbs_2014star_pcl .name_txt, .wbs_2014star_pcl .star_rank a { color: #333; }
+		.wbs_2014star_pcl .star_card a, .wbs_2014star_pcl .star_num a, .wbs_2014star_pcl .star_newwb a { color: #6cb2dd; }
+		.wbs_2014star_pcl .star_rank a { color: #b5b5b5; }
+		.wbs_2014star_pcl .star_rank dd a em { color: #ffb600; }
+		/* 邓超skin */
+		.wbs_2014star_dc { background: url(../../images_v6/common/star_dir_bg_dc_20151231.png) no-repeat; }
+		.wbs_2014star_dc .star_detail, .wbs_2014star_dc .name_txt, .wbs_2014star_dc .star_rank a { color: #333; }
+		.wbs_2014star_dc .star_card a, .wbs_2014star_dc .star_num a, .wbs_2014star_dc .star_newwb a, .wbs_2014star_dc .star_rank dd a em { color: #295287; }
+		.wbs_2014star_dc .star_rank a { color: #fff; text-shadow: 0 2px 5px #85b4cb; }
+		/* 邓超skin */
+		.wbs_2014star_dlrb { background: url(../../images_v6/common/star_dir_bg_dlrb_20151231.png) no-repeat; }
+		.wbs_2014star_dlrb .star_detail, .wbs_2014star_dlrb .name_txt, .wbs_2014star_dlrb .star_rank a { color: #fff; }
+		.wbs_2014star_dlrb .star_card a, .wbs_2014star_dlrb .star_num a, .wbs_2014star_dlrb .star_newwb a { color: #93e6ff; }
+		.wbs_2014star_dlrb .star_rank a { color: #fff; text-shadow: 0 0 10px #fff; }
+		.wbs_2014star_dlrb .star_rank dd a em { color: #fcb500; }
+		/* 郑恺skin */
+		.wbs_2014star_zk { background: url(../../images_v6/common/star_dir_bg_zk_20160104.png) no-repeat; }
+		.wbs_2014star_zk .star_detail, .wbs_2014star_zk .name_txt, .wbs_2014star_zk .star_rank a { color: #333; }
+		.wbs_2014star_zk .star_card a, .wbs_2014star_zk .star_num a, .wbs_2014star_zk .star_newwb a { color: #22ac38; }
+		.wbs_2014star_zk .star_rank a { color: #fff; }
+		.wbs_2014star_zk .star_rank dd a em { color: #fcb500; }
+		/* 吴磊skin */
+		.wbs_2014star_wl { background: url(../../images_v6/common/star_dir_bg_wl_20160106.png) no-repeat; }
+		.wbs_2014star_wl .star_detail, .wbs_2014star_wl .name_txt, .wbs_2014star_wl .star_rank a { color: #333; }
+		.wbs_2014star_wl .star_card a, .wbs_2014star_wl .star_num a, .wbs_2014star_wl .star_newwb a { color: #8e68fa; }
+		.wbs_2014star_wl .star_rank a { color: #fff; }
+		.wbs_2014star_wl .star_rank dd a em { color: #fcb500; }
+		/* 杨幂skin */
+		.wbs_2014star_ym { background: url(../../images_v6/common/star_dir_bg_ym_20160302.png) no-repeat; }
+		.wbs_2014star_ym .star_detail, .wbs_2014star_ym .name_txt, .wbs_2014star_ym .star_rank a { color: #000; }
+		.wbs_2014star_ym .star_card a, .wbs_2014star_ym .star_num a, .wbs_2014star_ym .star_newwb a { color: #54a8e5; }
+		.wbs_2014star_ym .star_rank a { color: #fff; }
+		.wbs_2014star_ym .star_rank dd a em { color: #fcb500; }
+
+#js_appstyle_searchV45_css_v6_module_search_directarea{height:42px;}
